@@ -1,0 +1,15 @@
+class ApartmentCardComponent {
+    constructor(props) {
+        this.props = props;
+        this.init();
+    }
+
+    init = () => {
+
+        this.htmlElement = document.createElement('article');
+        this.htmlElement.className = "card p-3 ";
+        this.htmlElement.innerHTML = `
+        <h2 class="h5">Apartamentukas</h2>
+        `;
+    };
+}

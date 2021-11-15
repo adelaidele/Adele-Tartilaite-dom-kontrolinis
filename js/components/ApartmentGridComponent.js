@@ -20,17 +20,33 @@ class ApartmentsGridComponent {
         this.state.loading = true;
         this.fetchApartments();
         this.htmlElement = document.createElement("div");
-        this.htmlElement.innerHTML = 'bandau laime';
+        this.htmlElement.className = "row g-4";
 
         this.render();
+    }
+
+    wrapInColumn = (element) => {
+        const column = document.createElement('div');
+        column.className = 'col-12 col-sm-6 col-lg-4 col-xl-3';
+        column.appendChild(element);
+        return column;
     }
 
     render = () => {
         const { loading, apartments } = this.state;
         if (loading) {
-          this.htmlElement.innerHTML = 'siunčiama...';
-        } else {
-          this.htmlElement.innerHTML = 'parsiųsta!';
+          this.htmlElement.innerHTML = "<div class='text-center'><img src='assets/house-loading.gif'/></div>";
+        }else if (apartments.length > 0) {
+            this.htmlElement.innerHTML = '';
+            const apartmentsElements = apartments
+             .map(apt => new ApartmentCardComponent(apt))
+             .map(apt => apt.htmlElement)
+             .map(this.wrapInColumn);
+
+            this.htmlElement.append(...apartmentsElements);
+        }
+        else {
+          this.htmlElement.innerHTML = "<h2>Siuo metu apartamentu nera</h2>";
         }  
     }
 }
