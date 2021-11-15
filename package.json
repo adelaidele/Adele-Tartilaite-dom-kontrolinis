@@ -1,0 +1,23 @@
+{
+  "name": "adele-tartilaite-dom-kontrolinis",
+  "version": "1.0.0",
+  "description": "Adeles Tartilaite DOM kontrolinis",
+  "main": "index.js",
+  "scripts": {
+    "start-unix": "node_modules/.bin/json-server --watch database.json",
+    "start-win": "node_modules\\.bin\\json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelaidele/Adele-Tartilaite-dom-kontrolinis.git"
+  },
+  "author": "Adele Tartilaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adelaidele/Adele-Tartilaite-dom-kontrolinis/issues"
+  },
+  "homepage": "https://github.com/adelaidele/Adele-Tartilaite-dom-kontrolinis#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
