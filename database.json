@@ -1,0 +1,114 @@
+{
+    "apartments" : [
+        {
+            "id": "1",
+            "type": "house",
+            "owner": {
+              "fullname": "Antanas Antanelis",
+              "email": "Antanelis11@gmail.com",
+              "phone": "868683217"
+            },
+            "roomCount": 3,
+            "squares": 120,
+            "address": {
+              "city": "Vilnius",
+              "country": "Lietuva",
+              "street": "Didzioji gatve",
+              "number": "2"
+            },
+            "price": {
+              "amount": 300000,
+              "currency": "$"
+            },
+            "imgSrc": "https://www.1323.lt/images/1323/2019/44sav/didzioji/didzioji1.jpg"
+          },
+          {
+            "id": "2",
+            "type": "flat",
+            "owner": {
+              "fullname": "Saule Saulyte",
+              "email": "Saulyte30@gmail.com",
+              "phone": "865583217"
+            },
+            "roomCount": 2,
+            "squares": 50,
+            "address": {
+              "city": "Vilnius",
+              "country": "Lietuva",
+              "street": "Paupio gatve",
+              "number": "10"
+            },
+            "price": {
+              "amount": 140000,
+              "currency": "€"
+            },
+            "imgSrc": "https://www.pamatyklietuvoje.lt/api/Photo/3172422b-7704-43a1-a48b-f78c5b1712ce/0/960/460/crop"
+          },
+          {
+            "id": "3",
+            "type": "cottage",
+            "owner": {
+              "fullname": "Zilvinas Zilvinelis",
+              "email": "Zilvinelis20@gmail.com",
+              "phone": "868683997"
+            },
+            "roomCount": 4,
+            "squares": 100,
+            "address": {
+              "city": "Vilnius",
+              "country": "Lietuva",
+              "street": "kriviu gatve",
+              "number": "5"
+            },
+            "price": {
+              "amount": 200000,
+              "currency": "$"
+            },
+            "imgSrc": "https://s1.15min.lt/static/cache/MTIwMHg5MDAsOTMxeDY0NSw2MTYxMzMsb3JpZ2luYWwsLGlkPTI4MjA5OTImZGF0ZT0yMDE3JTJGMDIlMkYyMywxNzAzNzY4MTAw/lietuvos-respublikos-generaline-prokuratura-58aeb2bbb7498.jpg"
+          },
+          {
+            "id": "4",
+            "type": "house",
+            "owner": {
+              "fullname": "Menulis Menulytis",
+              "email": "Menulytis8@gmail.com",
+              "phone": "869983217"
+            },
+            "roomCount": 5,
+            "squares": 150,
+            "address": {
+              "city": "Vilnius",
+              "country": "Lietuva",
+              "street": "Pasilaiciu gatve",
+              "number": "5"
+            },
+            "price": {
+              "amount": 400000,
+              "currency": "€"
+            },
+            "imgSrc": "https://ibimsolutions.lt/wp-content/uploads/2018/10/Untitled-3.jpg"
+          },
+          {
+            "id": "5",
+            "type": "house",
+            "owner": {
+              "fullname": "Andrius Andrulis",
+              "email": "Andrulis8@gmail.com",
+              "phone": "868983217"
+            },
+            "roomCount": 5,
+            "squares": 160,
+            "address": {
+              "city": "Vilnius",
+              "country": "Lietuva",
+              "street": "manufakturu gatve",
+              "number": "5"
+            },
+            "price": {
+              "amount": 600000,
+              "currency": "€"
+            },
+            "imgSrc": "https://s1.15min.lt/images/photos/2018/08/29/big/vilniaus-dainavos-gatveje-kils-biuru-pastatas-5b869305d4c61.jpg"
+          }
+    ]
+}
